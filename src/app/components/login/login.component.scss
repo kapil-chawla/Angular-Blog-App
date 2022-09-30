@@ -1,0 +1,53 @@
+@import  'src/assets/scss/partials/_variables.scss';
+
+.login{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $lightGreen;
+    flex-direction: column;
+    h1 {
+      font-size: 20px;
+      color: teal;
+      margin-bottom: 20px;
+    }
+    form {
+      background-color: whitesmoke;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 300px;
+    }
+    input {
+      border: none;
+      border-bottom: 1px solid gray;
+      padding: 10px;
+    }
+    button{
+      padding: 10px;
+      background-color: teal;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    span{
+      font-size: 12px;
+      text-align: center;
+      a{
+        text-decoration: none;
+        color: teal;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 4px;
+      }
+    }
+    p{
+      font-size: 12px;
+      text-align: center;
+      color: red;
+    }
+
+  }
