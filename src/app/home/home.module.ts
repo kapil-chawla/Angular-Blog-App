@@ -31,6 +31,5 @@ const routes: Routes = [
     WriteBlogComponent,
   ],
   imports: [CommonModule, RouterModule.forChild(routes)],
-  bootstrap: [HomeComponent],
 })
 export class HomeModule {}

@@ -1,0 +1,13 @@
+<div class="login">
+  <h1>Login</h1>
+  <form [formGroup]="loginForm" (ngSubmit)="handleSubmit()">
+    <input type="text" placeholder="Username" formControlName="username" />
+    <input type="password" placeholder="Password" formControlName="password" />
+    <button type="submit">Signin</button>
+    <p *ngIf="errorMsg !== ''">{{ errorMsg }}</p>
+    <span
+      >Don't you have a accout? <br />
+      <a routerLink="/auth/register">Register Here!</a></span
+    >
+  </form>
+</div>
